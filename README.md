@@ -1,5 +1,5 @@
 # Prestashop-Resend-Order-Confirmation-Email
-###Resend the order confirm email in Prestashop.
+### Resend the order confirm email in Prestashop.
 
 I have found it incredibly tedious having to constantly rewrite the code for resending order confirmation emails in Prestashop. 
 
@@ -20,3 +20,10 @@ You are welcome to use or even improve upon it.
 
 
 ### To install:
+1. Click on the green top right button that says "<> Code",
+2. Click on Download ZIP
+3. Open the zip file, you should see a folder in it called "Prestashop-Resend-Order-Confirmation-Email-main", go into that folder and you should see another folder named "presta_resend_order_conf_email".
+4. Extract that folder out and re-zip it.
+5. Go to the back office of Prestashop, On the left hand side navigation bar, find Improve -> Modules -> click on Module manager
+6.  Click on "Upload a module", then click on "select a file". Select the zip file you have created in step 4.
+7. Ta-da. Done.
