@@ -51,7 +51,10 @@ class Presta_resend_order_conf_email extends Module
         $cust = new Customer($order->id_customer);
 
         $token = Tools::getAdminTokenLite('AdminPrestaResendOrderConfEmail');
-        if ($order->current_state == '2') {
+
+        // guardrail to only show the button when the order status is Payment Accepted
+        // Uncomment line 57 and 66 to restore the guardrail
+        // if ($order->current_state == '2') {
             $this->context->smarty->assign(
                 array(
                 'id_order' => $id_order,
@@ -60,7 +63,7 @@ class Presta_resend_order_conf_email extends Module
                 )
             );
             return $this->display(__FILE__, 'tab.tpl');
-        }
+        // }
 
     }
 
