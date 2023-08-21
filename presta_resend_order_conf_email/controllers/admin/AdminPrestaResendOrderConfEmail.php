@@ -1,4 +1,3 @@
-
 <?php
 class AdminPrestaResendOrderConfEmailController extends ModuleAdminController
 {
