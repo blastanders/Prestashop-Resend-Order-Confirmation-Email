@@ -90,7 +90,7 @@ class AdminPrestaResendOrderConfEmailController extends ModuleAdminController
                             </td>                            
                             <td style="padding: 10px 0;" width="15%">
                                 <font size="2" face="Arial, sans-serif" color="#414a56">
-                                    <p style="margin: 0; padding: 0 5px; font-size: 14px">'.Tools::displayPrice($unit_price, $currency, false).'</p>
+                                    <p style="margin: 0; padding: 0 5px; font-size: 14px">'.Tools::displayPrice($unit_price, $this->context->currency, false).'</p>
                                 </font>
                             </td>
                             <td style="padding: 10px 0;" width="5%">
